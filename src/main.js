@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { createGrass } from "./grassShader.js";  // นำเข้า Grass
+import { createGrass } from "../my-3d-site/src/components/Grass.js";  // นำเข้า Grass
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
-import { addClouds } from "./createCloud.js";
+import { addClouds } from "../my-3d-site/src/components/createCloud.js";
 
 // สร้าง Scene, Camera, Renderer
 const WIDTH = window.innerWidth;
